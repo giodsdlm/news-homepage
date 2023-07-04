@@ -12,6 +12,10 @@ a {
   color: hsl(228, 45%, 44%);
 }
 
+.footer-news {
+  display: flex;
+}
+
 html {
   background-color: hsl(36, 100%, 99%);
   font-family: "Inter", serif;
@@ -28,19 +32,18 @@ img {
 }
 
 li {
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 3.5rem;
 }
-
-menu,
-ul {
+.main-news-container {
   display: flex;
-  list-style: none;
-  padding: 0;
 }
 
 .navbar {
   align-self: center;
   color: hsl(236, 13%, 42%);
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .navbar-container {
@@ -53,4 +56,26 @@ ul {
   font-family: "DM Serif Display";
   font-size: 4rem;
   font-weight: 900;
+}
+
+.news-card {
+  display: flex;
+}
+
+.spot-news article {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem 1rem 0;
+}
+.spot-news h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.spot-news img {
+  max-width: 50vw;
+}
+.spot-news p {
+  display: flex;
+  flex-direction: column;
 }
